@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive version</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="overflow-x-hidden max-w-lvw">
+    <nav
+      class="p-5 bg-transparent md:flex md:items-center md:justify-between fixed top-0 left-0 w-full z-50"
+    >
+      <div class="flex justify-between items-center">
+        <span class="font-bold sm:text-base md:text-2xl"> ASTHRA AI </span>
+
+        <span
+          class="text-3xl cursor-pointer mx-2 md:hidden block"
+          onclick="Menu(this)"
+        >
+          <ion-icon name="menu"></ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-blue-700 lg:bg-transparent w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+      <li>
+        <a
+          href="index.html"
+          class="mx-6 font-semibold text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href="responsive_aboutus.html"
+          class="mx-6 font-semibold text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+          >About Us</a
+        >
+      </li>
+      <li>
+        <a
+          href="livedemoresponsive.html"
+          class="mx-6 font-semibold text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+          >Live Demo</a
+        >
+      </li>
+      <li>
+        <a
+          href="contact_us_r.html"
+          class="mx-6 font-semibold  text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+          >Contact Us</a
+        >
+      </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="w-screen h-screen flex">
+        <div
+          class="intro-content my-auto flex flex-col md:w-1/2 lg:w-1/2 justify-center"
+        >
+          <h1 class="px-20 md:text-5xl font-bold text-4xl">
+            Your Guide For <br />
+            Government Sites
+          </h1>
+          <p class="pt-5 px-20">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+            earum praesentium illum officiis est molestiae, error repudiandae
+            dolor atque delectus nihil odit nemo animi architecto debitis amet
+            quasi obcaecati Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Officiis repellendus facere ex, quos dolores sunt deserunt
+            cumque atque unde neque doloremque? Quod ipsa harum odit cum, amet
+            quidem culpa tenetur.
+          </p>
+          <button
+            class="bg-blue-500 px-3 md:px-10 py-2 md:py-3 mx-52 mt-5 text-white font-bold rounded-xl hover:bg-blue-700"
+          >
+            Try It!!
+          </button>
+        </div>
+        <div class="intro-image group hidden lg:block">
+          <div
+            style="height: 120%; width: 60%"
+            class="container h-96 w-96 absolute -right-32 -top-44 rounded-full bg-blue-300 blur-3xl"
+          >
+            <img
+              style="height: 85%; width: 85%"
+              class="rounded-full absolute right-10 top-10"
+              src="https://media.licdn.com/dms/image/D5612AQH8G4NK3vk8YQ/article-cover_image-shrink_720_1280/0/1687951484057?e=2147483647&v=beta&t=uOYXYzBfX__jJdXgTQTIIzhSfc_1o6xgJnp4BdZ3dW0"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="w-screen h-auto px-4 md:px-20 justify-around">
+        <h2 class="flex justify-center font-bold text-2xl md:text-2xl pt-28">
+          Features We Offer
+        </h2>
+
+        <div class="cards flex flex-col md:flex-row justify-center m-4 md:m-16">
+          <div
+            class="card md:mr-8 md:mb-0 mb-8 w-full md:w-72 h-80 border-b-8 border-blue-400 rounded-lg shadow-blue-600 shadow-2xl p-10"
+          >
+            <div class="card-top flex">
+              <div
+                class="w-20 h-20 bg-blue-400 rounded-full flex items-center justify-center text-3xl font-bold border-4 border-blue-500"
+              >
+                1
+              </div>
+              <div class="font-bold flex items-center p-7 text-xl">Feature</div>
+            </div>
+            <div class="card-bottom p-1.5 font-medium">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              ipsam, molestiae animi ratione atque facere labore explicabo
+              consectetur aspernatur, optio mollitia
+            </div>
+          </div>
+          <div
+            class="card md:mr-8 md:mb-0 mb-8 w-full md:w-72 h-80 border-b-8 border-blue-400 rounded-lg shadow-blue-600 shadow-2xl p-10"
+          >
+            <div class="card-top flex">
+              <div
+                class="w-20 h-20 bg-blue-400 rounded-full flex items-center justify-center text-3xl font-bold border-4 border-blue-500"
+              >
+                2
+              </div>
+              <div class="font-bold flex items-center p-7 text-xl">Feature</div>
+            </div>
+            <div class="card-bottom p-1.5 font-medium">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              ipsam, molestiae animi ratione atque facere labore explicabo
+              consectetur aspernatur, optio mollitia
+            </div>
+          </div>
+          <div
+            class="card w-full md:w-72 h-80 border-b-8 border-blue-400 rounded-lg shadow-blue-600 shadow-2xl p-10"
+          >
+            <div class="card-top flex">
+              <div
+                class="w-20 h-20 bg-blue-400 rounded-full flex items-center justify-center text-3xl font-bold border-4 border-blue-500"
+              >
+                3
+              </div>
+              <div class="font-bold flex items-center p-7 text-xl">Feature</div>
+            </div>
+            <div class="card-bottom p-1.5 font-medium">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              ipsam, molestiae animi ratione atque facere labore explicabo
+              consectetur aspernatur, optio mollitia
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="w-screen h-screen flex flex-col lg:flex-row justify-center items-center bg-blue-300"
+      >
+        <div
+          class="demo-image flex-1 flex items-center justify-center lg:justify-end w-full lg:w-1/2"
+        >
+          <div
+            style="height: 100%; width: 50%"
+            class="bg-blue-600 rounded-full absolute mt-16 lg:mt-0 hidden lg:block"
+          ></div>
+        </div>
+        <div
+          class="demo-content flex-1 flex flex-col justify-center mt-10 items-start px-5 lg:px-12 w-full lg:w-1/2"
+        >
+          <h2 class="font-bold text-2xl lg:text-2xl pb-2">Live Demo</h2>
+          <span class="font-semibold text-sm lg:text-base">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            numquam doloremque modi eveniet voluptatem?
+          </span>
+          <div class="steps-line mt-5 lg:mt-8">
+            <div class="step flex mt-2 lg:mt-4 ml-2 lg:ml-4">
+              <div class="steps-line mt-12">
+                <div class="step flex mt-4 ml-4">
+                  <div
+                    class="flex items-center justify-center w-16 h-16 bg-blue-700 rounded-full font-bold text-2xl text-white border-2 border-white"
+                  >
+                    1
+                  </div>
+                  <h2 class="font-bold flex text-xl ml-5 items-center">
+                    Step 1
+                  </h2>
+                </div>
+                <div class="step flex mt-4 ml-4">
+                  <div
+                    class="flex items-center justify-center w-16 h-16 bg-blue-700 rounded-full font-bold text-2xl text-white border-2 border-white"
+                  >
+                    2
+                  </div>
+                  <h2 class="font-bold flex text-xl ml-5 items-center">
+                    Step 2
+                  </h2>
+                </div>
+                <div class="step flex mt-4 ml-4">
+                  <div
+                    class="flex items-center justify-center w-16 h-16 bg-blue-700 rounded-full font-bold text-2xl text-white border-2 border-white"
+                  >
+                    3
+                  </div>
+                  <h2 class="font-bold flex text-xl ml-5 items-center">
+                    Step 3
+                  </h2>
+                </div>
+                <div class="step flex mt-4 ml-4 mb-16">
+                  <div
+                    class="flex items-center justify-center w-16 h-16 bg-blue-700 rounded-full font-bold text-2xl text-white border-2 border-white"
+                  >
+                    4
+                  </div>
+                  <h2 class="font-bold flex text-xl ml-5 items-center">
+                    Step 4
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat the above structure for other steps -->
+          </div>
+          <button
+            class="bg-blue-700 px-5 mb-5 lg:px-10 py-2 lg:py-3 ml-2 lg:ml-4 mt-3 lg:mt-5 text-white font-bold rounded-xl hover:bg-blue-500 border-2 border-blue-300"
+          >
+            Get Live Demo!
+          </button>
+        </div>
+      </section>
+      <section
+        class="w-screen h-full md:h-screen flex flex-col md:flex-row items-center justify-center pt-10"
+      >
+        <div class="flex flex-col items-center mb-10 md:mb-0 md:flex-1 md:mr-8">
+          <h2 class="font-bold text-2xl items-center">Our Product</h2>
+          <span class="font-semibold mt-7 px-14 text-center"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic optio
+            inventore facere doloremque harum, vitae tempora autem assumenda,
+            libero eligendi velit ipsam molestias illo a quaerat odio et quasi
+            in!</span
+          >
+          <span class="font-semibold mt-7 px-14 text-center"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic optio
+            inventore facere doloremque harum, vitae tempora autem assumenda,
+            libero eligendi velit ipsam molestias illo a quaerat odio et quasi
+            in!</span
+          >
+          <span class="font-semibold mt-7 px-14 text-center"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic optio
+            inventore facere doloremque harum, vitae tempora autem assumenda,
+            libero eligendi velit ipsam molestias illo a quaerat odio et quasi
+            in!</span
+          >
+          <button
+            class="bg-blue-700 px-10 py-3 ml-4 mt-10 text-white font-bold rounded-xl hover:bg-blue-500 border-2 border-blue-300"
+          >
+            Read More
+          </button>
+        </div>
+        <div class="flex justify-center items-center md:flex-1">
+          <div
+            class="w-96 h-96 blur-3xl bg-blue-300 rounded-full flex items-center justify-center"
+          >
+            <img
+              class="rounded-full h-72 w-72"
+              src="https://media.licdn.com/dms/image/D5612AQH8G4NK3vk8YQ/article-cover_image-shrink_720_1280/0/1687951484057?e=2147483647&v=beta&t=uOYXYzBfX__jJdXgTQTIIzhSfc_1o6xgJnp4BdZ3dW0"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-blue-700 w-screen h-60 flex items-start justify-around pt-8"
+    >
+      <div class="text-white">
+        <p class="font-bold text-2xl">ASTHRA AI</p>
+      </div>
+
+      <div class="text-white font-semibold leading-10">
+        <p class="hover:text-blue-300">abc.asthra.ai</p>
+        <p class="hover:text-blue-300">def.asthra.ai</p>
+      </div>
+
+      <div class="text-white font-semibold leading-10">
+        <p>Phone: xxx-xxx-xxxx</p>
+        <p>Email: info@example.com</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

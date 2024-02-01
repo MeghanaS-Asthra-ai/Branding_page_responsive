@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive version</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <style></style>
+  </head>
+  <body class="overflow-x-hidden max-w-lvw">
+    <nav
+      class="p-5 bg-transparent md:flex md:items-center md:justify-between fixed top-0 left-0 w-full z-50"
+    >
+      <div class="flex justify-between items-center">
+        <span class="font-bold sm:text-base md:text-2xl"> ASTHRA AI </span>
+
+        <span
+          class="text-3xl cursor-pointer mx-2 md:hidden block"
+          onclick="Menu(this)"
+        >
+          <ion-icon name="menu"></ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-blue-700 lg:bg-transparent w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+      <li>
+        <a
+          href="index.html"
+          class="mx-6 font-semibold text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href="responsive_aboutus.html"
+          class="mx-6 font-semibold text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+          >About Us</a
+        >
+      </li>
+      <li>
+        <a
+          href="livedemoresponsive.html"
+          class="mx-6 font-semibold text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+          >Live Demo</a
+        >
+      </li>
+      <li>
+        <a
+          href="contact_us_r.html"
+          class="mx-6 font-semibold  text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+          >Contact Us</a
+        >
+      </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section
+        class="w-screen h-auto md:h-auto lg:h-screen flex bg-blue-300 mt-0"
+      >
+        <div class="flex w-4/5 mx-auto flex-wrap">
+          <div class="flex-1 p-4 mt-10 flex-col items-center justify-center">
+            <div class="flex flex-col justify-start">
+              <h2 class="font-bold text-3xl pt-20">Contact Us</h2>
+              <span class="justify-start font-semibold mt-8"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                optio inventore facere doloremque harum, vitae tempora autem
+                assumenda, libero eligendi velit ipsam molestias illo a quaerat
+                odio et quasi in!Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Hic optio inventore facere doloremque harum,
+                vitae tempora autem assumenda, libero eligendi velit ipsam
+                molestias illo a quaerat odio et quasi in! Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Consectetur officia, est
+                nostrum quis consequuntur reiciendis odit tempora dolores
+                ducimus voluptatem dolorem ratione quisquam. Dolorum ut quaerat
+                aliquam, vitae pariatur voluptates. Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Consectetur doloribus vitae
+                dolorum in repellendus natus quaerat sunt obcaecati maxime! Eum
+                laudantium ab perferendis aperiam ut veniam rerum corrupti,
+                soluta dolorem.</span
+              >
+            </div>
+            <div class="social_media_icons flex mt-10 justify-center">
+              <a
+                href="https://www.instagram.com/"
+                class="icon mr-5 w-14 h-14 relative"
+              >
+                <img
+                  class="h-full w-full object-cover transition-transform transform hover:scale-110"
+                  src="imgs/instagram_icon.png"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                class="icon mx-5 w-14 h-14 relative"
+              >
+                <img
+                  class="h-full w-full object-cover transition-transform transform hover:scale-110"
+                  src="imgs/facebook_icon.png"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://twitter.com/"
+                class="icon mx-5 w-14 h-14 relative"
+              >
+                <img
+                  class="h-full w-full object-cover transition-transform transform hover:scale-110"
+                  src="imgs/twitter_icon.png"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                class="icon mx-5 w-14 h-14 relative"
+              >
+                <img
+                  class="h-full w-full object-cover transition-transform transform hover:scale-110"
+                  src="imgs/linked_in_icon.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="about_us_vision_mission_img flex-1 p-4 flex items-center justify-center md:ml-10"
+          >
+            <div class="w-96 mx-auto rounded-3xl p-8 shadow-md bg-blue-700">
+              <h2 class="text-2xl font-semibold mb-6">Contact Form</h2>
+
+              <form class="">
+                <div class="mb-4">
+                  <label
+                    for="fullName"
+                    class="block text-semibold font-medium text-white"
+                    >Name:</label
+                  >
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    class="mt-1 p-2 w-full border rounded-md"
+                    placeholder="Enter your full name"
+                  />
+                </div>
+
+                <div class="mb-4">
+                  <label
+                    for="company"
+                    class="block text-semibold font-medium text-white"
+                    >Company:</label
+                  >
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    class="mt-1 p-2 w-full border rounded-md"
+                    placeholder="Enter your company name"
+                  />
+                </div>
+
+                <div class="mb-4">
+                  <label
+                    for="role"
+                    class="block text-semibold font-medium text-white"
+                    >Role:</label
+                  >
+                  <input
+                    type="text"
+                    id="role"
+                    name="role"
+                    class="mt-1 p-2 w-full border rounded-md"
+                    placeholder="Enter your role"
+                  />
+                </div>
+
+                <div class="mb-6">
+                  <label
+                    for="email"
+                    class="block text-semibold font-medium text-white"
+                    >Email:</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="mt-1 p-2 w-full border rounded-md"
+                    placeholder="Enter your email"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  class="bg-blue-300 text-black font-semibold px-5 py-3 mx-auto rounded-md flex hover:bg-blue-600"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer
+        class="bg-blue-700 w-screen h-60 flex items-start justify-around pt-8"
+      >
+        <div class="text-white">
+          <p class="font-bold text-2xl">ASTHRA AI</p>
+        </div>
+
+        <div class="text-white font-semibold leading-10">
+          <p class="hover:text-blue-300">abc.asthra.ai</p>
+          <p class="hover:text-blue-300">def.asthra.ai</p>
+        </div>
+
+        <div class="text-white font-semibold leading-10">
+          <p>Phone: xxx-xxx-xxxx</p>
+          <p>Email: info@example.com</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

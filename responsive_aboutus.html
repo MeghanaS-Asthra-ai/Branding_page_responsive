@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAU</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="overflow-x-hidden max-w-lvw">
+    <nav
+      class="p-5 bg-transparent md:flex md:items-center md:justify-between fixed top-0 left-0 w-full z-50"
+    >
+      <div class="flex justify-between items-center">
+        <span class="font-bold sm:text-base md:text-2xl"> ASTHRA AI </span>
+
+        <span
+          class="text-3xl cursor-pointer mx-2 md:hidden block"
+          onclick="Menu(this)"
+        >
+          <ion-icon name="menu"></ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-blue-700 lg:bg-transparent w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <li>
+          <a
+            href="index.html"
+            class="mx-6 font-semibold text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="responsive_aboutus.html"
+            class="mx-6 font-semibold text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+            >About Us</a
+          >
+        </li>
+        <li>
+          <a
+            href="livedemoresponsive.html"
+            class="mx-6 font-semibold text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+            >Live Demo</a
+          >
+        </li>
+        <li>
+          <a
+            href="contact_us_r.html"
+            class="mx-6 font-semibold  text-white lg:text-black md:my-0 hover:text-blue-500 cursor-pointer duration-300"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="w-screen h-auto lg:h-screen flex">
+        <div
+          class="about_us_intro_content flex flex-col md:flex-row md:justify-between w-full mx-auto"
+        >
+          <div
+            class="about_us_top_right md:w-1/2 p-4 flex items-center justify-center md:order-last mt-28 lg:mt-0"
+          >
+            <img
+              class="w-96 h-96 bg-blue-300 rounded-full mx-auto md:mx-0"
+              src="imgs/aboutus.jpg"
+              alt="About Us Image"
+            />
+          </div>
+          <div
+            class="about_us_top_left md:w-1/2 p-4 flex flex-col justify-start md:order-first lg:p-14"
+          >
+            <h2 class="font-bold text-3xl pt-20">About Us</h2>
+            <span class="font-semibold mt-14"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              optio inventore facere doloremque harum, vitae tempora autem
+              assumenda, libero eligendi velit ipsam molestias illo a quaerat
+              odio et quasi in!</span
+            >
+            <span class="font-semibold mt-7"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              optio inventore facere doloremque harum, vitae tempora autem
+              assumenda, libero eligendi velit ipsam molestias illo a quaerat
+              odio et quasi in!</span
+            >
+            <span class="font-semibold mt-7"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              optio inventore facere doloremque harum, vitae tempora autem
+              assumenda, libero eligendi velit ipsam molestias illo a quaerat
+              odio et quasi in!</span
+            >
+            <span class="font-semibold mt-7"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              optio inventore facere doloremque harum, vitae tempora autem
+              assumenda, libero eligendi velit ipsam molestias illo a quaerat
+              odio et quasi in!</span
+            >
+          </div>
+        </div>
+      </section>
+      <section class="w-screen h-auto lg:h-screen flex bg-blue-300">
+        <div
+          class="about_us_intro_content flex flex-col sm:flex-row w-full mx-auto lg:flex-row-reverse"
+        >
+          <div
+            class="about_us_top_right flex-1 p-4 flex items-center justify-center sm:order-2"
+          >
+            <img
+              class="w-72 h-72 sm:w-96 sm:h-96 bg-blue-300 rounded-full"
+              src="imgs/about_us_vm.png"
+              alt="Vision and Mission"
+            />
+          </div>
+          <div
+            class="about_us_top_left flex-1 p-4 lg:my-auto lg:mx-5 flex flex-col justify-start sm:order-1"
+          >
+            <div class="pb-5">
+              <h2 class="font-bold text-2xl sm:text-3xl pt-8 lg:py-5 sm:pt-20">
+                Vision
+              </h2>
+              <span class="font-semibold mt-4 sm:mt-8"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                optio inventore facere doloremque harum, vitae tempora autem
+                assumenda, libero eligendi velit ipsam molestias illo a quaerat
+                odio et quasi in! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Hic optio inventore facere doloremque harum,
+                vitae tempora autem assumenda, libero eligendi velit ipsam
+                molestias illo a quaerat odio et quasi in!</span
+              >
+              <h2 class="font-bold text-2xl sm:text-3xl pt-8 sm:pt-14 lg:py-5">
+                Mission
+              </h2>
+              <span class="font-semibold mt-4 sm:mt-7"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                optio inventore facere doloremque harum, vitae tempora autem
+                assumenda, libero eligendi velit ipsam molestias illo a quaerat
+                odio et quasi in! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Hic optio inventore facere doloremque harum,
+                vitae tempora autem assumenda, libero eligendi velit ipsam
+                molestias illo a quaerat odio et quasi in!</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-screen h-auto px-4 md:px-20 justify-around">
+        <h2 class="flex justify-center font-bold text-2xl md:text-2xl pt-28">
+          Why Us!
+        </h2>
+
+        <div class="cards flex flex-col md:flex-row justify-center m-4 md:m-16">
+          <div
+            class="card md:mr-8 md:mb-0 mb-8 w-full md:w-72 h-80 border-b-8 border-blue-400 rounded-lg shadow-blue-600 shadow-2xl p-10"
+          >
+            <div class="card-top flex">
+              <div
+                class="w-20 h-20 bg-blue-400 rounded-full flex items-center justify-center text-3xl font-bold border-4 border-blue-500"
+              >
+                1
+              </div>
+              <div class="font-bold flex items-center p-7 text-xl">Feature</div>
+            </div>
+            <div class="card-bottom p-1.5 leading-5 font-medium">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              ipsam, molestiae animi ratione atque facere labore explicabo
+              consectetur aspernatur, optio mollitia
+            </div>
+          </div>
+          <div
+            class="card md:mr-8 md:mb-0 mb-8 w-full md:w-72 h-80 border-b-8 border-blue-400 rounded-lg shadow-blue-600 shadow-2xl p-10"
+          >
+            <div class="card-top flex">
+              <div
+                class="w-20 h-20 bg-blue-400 rounded-full flex items-center justify-center text-3xl font-bold border-4 border-blue-500"
+              >
+                2
+              </div>
+              <div class="font-bold flex items-center p-7 text-xl">Feature</div>
+            </div>
+            <div class="card-bottom p-1.5 leading-5 font-medium">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              ipsam, molestiae animi ratione atque facere labore explicabo
+              consectetur aspernatur, optio mollitia
+            </div>
+          </div>
+          <div
+            class="card w-full md:w-72 h-80 border-b-8 border-blue-400 rounded-lg shadow-blue-600 shadow-2xl p-10"
+          >
+            <div class="card-top flex">
+              <div
+                class="w-20 h-20 bg-blue-400 rounded-full flex items-center justify-center text-3xl font-bold border-4 border-blue-500"
+              >
+                3
+              </div>
+              <div class="font-bold flex items-center p-7 text-xl">Feature</div>
+            </div>
+            <div class="card-bottom p-1.5 leading-5 font-medium">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              ipsam, molestiae animi ratione atque facere labore explicabo
+              consectetur aspernatur, optio mollitia
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-screen lg:h-screen">
+        <h2 class="flex justify-center font-bold text-2xl sm:text-3xl pt-14">
+          Awesome People Behind Us !!
+        </h2>
+        <div class="flex justify-center items-center">
+          <div
+            class="flex flex-col lg:flex-row w-3/4 md:w-5/6 lg:w-10/12 bg-blue-700 mt-14 lg:mt-20 rounded-2xl p-6 lg:p-10"
+          >
+            <div
+              class="flex flex-1 lg:mr-4 text-white justify-center items-center leading-8 mb-5 lg:mb-0"
+            >
+              <span class="font-semibold"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis assumenda dolorem repudiandae vero facere aperiam in
+                sunt culpa quidem officia totam architecto natus rem quod
+                tempore expedita, neque ipsum ab! Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Consequatur dolorem recusandae
+                eaque exercitationem sed ducimus ratione quae, expedita
+                voluptatibus, autem officia cum harum ab alias fugiat? Cum
+                tenetur aliquam excepturi! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Fugit eligendi ad beatae! Porro,
+                explicabo harum blanditiis corrupti, nisi laudantium assumenda
+                sunt sequi vero, incidunt eos similique. Laborum aperiam soluta
+                officia.</span
+              >
+            </div>
+            <div
+              class="flex flex-1 lg:ml-4 flex-col justify-center items-center mb-5 lg:mb-0"
+            >
+              <div class="flex flex-row">
+                <img
+                  class="h-48 lg:h-64 w-36 lg:w-48 mx-3 rounded-3xl"
+                  src="https://images.unsplash.com/photo-1659576294143-1da218a2d82e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                  alt=""
+                />
+                <img
+                  class="h-48 lg:h-64 w-36 lg:w-48 mx-3 rounded-3xl"
+                  src="https://images.unsplash.com/photo-1659576294143-1da218a2d82e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                  alt=""
+                />
+              </div>
+              <button
+                class="bg-white mt-6 text-blue-700 font-semibold py-2 px-4 rounded-full mb-3"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-blue-700 w-screen h-60 flex items-start justify-around pt-8 mt-14"
+    >
+      <div class="text-white">
+        <p class="font-bold text-2xl">ASTHRA AI</p>
+      </div>
+
+      <div class="text-white font-semibold leading-10">
+        <p class="hover:text-blue-300">abc.asthra.ai</p>
+        <p class="hover:text-blue-300">def.asthra.ai</p>
+      </div>
+
+      <div class="text-white font-semibold leading-10">
+        <p>Phone: xxx-xxx-xxxx</p>
+        <p>Email: info@example.com</p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
